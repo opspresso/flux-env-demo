@@ -24,7 +24,7 @@ datadog:
 env:
 - name: PROFILE
   value: dev
-- name: DD_AGENT_ENABLED
+- name: JAVA_AGENT_ENABLED
   value: 'true'
 - name: ENV_HASH
   value: 49c0a28bb85ce64c3bef165ec476f1b5

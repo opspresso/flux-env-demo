@@ -18,8 +18,8 @@ datadog:
 env:
 - name: PROFILE
   value: dev
-- name: DD_AGENT_ENABLED
-  value: 'true'
+# - name: DD_AGENT_ENABLED
+#   value: 'true'
 - name: ENV_HASH
   value: bb2af5df59f1a520be1599fde3d09a1e
 image:
